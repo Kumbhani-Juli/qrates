@@ -1,0 +1,174 @@
+.header-section-container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.header-section-container-left-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-section-container-left-content img {
+  height: 50px;
+}
+
+.header-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-nav-links a,
+.header-section-container-right-content a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-section-container-right-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-section-container-right-content button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+.header-search-icon,
+.header-cart-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Toggle button styles for mobile */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* discover music submenu */
+.header-discover-music-submenu{
+  position: absolute;
+  top: 60px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  z-index: 999;
+}
+
+.header-discover-music-submenu li{
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+.header-discover-music-link{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.header-discover-music-link span{
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-section-container {
+    padding: 10px 20px;
+  }
+
+  .header-nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .header-nav-links.active {
+    display: flex;
+  }
+
+  .header-section-container-left-content {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .header-section-container-right-content {
+    display: none;
+  }
+
+  .header-nav-links a,
+  .header-search-icon,
+  .header-cart-icon {
+    font-size: 18px;
+  }
+  .header-section-container-mobile-right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-section-container-mobile-right-content button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+  }
+
+  .header-section-container-mobile-right-content a{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+  }
+  .header-mobile-social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-social-icon{
+    font-size: 30px;
+  }
+  .header-discover-music-link{
+    transition: 0.5s ease-in-out;
+  }
+  .header-discover-music-submenu{
+    position: relative;
+    top: 0;
+  }
+}

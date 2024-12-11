@@ -1,0 +1,240 @@
+/* Styling for the entire section */
+.home-page-top-section-container {
+  padding: 0 7rem;
+}
+
+.home-page-top-section-left-content h1 {
+  font-size: 4rem;
+  /* Adjust the size as needed */
+  margin-bottom: 20px;
+  line-height: 1.2;
+
+}
+
+/* Bold style for the first line of the heading */
+.home-page-top-section-left-content h1 span.bold {
+  font-weight: 900;
+  color: black;
+}
+
+/* Outlined style for the rest of the heading */
+.home-page-top-section-left-content h1 span.outlined {
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  font-weight: 900;
+}
+
+.home-page-top-section-left-content {
+  padding: 0 3rem !important;
+}
+
+.home-page-top-section-left-content p {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.home-page-top-section-left-content-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.button-router-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-page-top-section-left-content-buttons button {
+  border: 1px solid #000;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 30px;
+  width: 40%;
+}
+
+.home-page-top-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+  flex-wrap: wrap;
+}
+
+.home-page-top-section-left-content-for-fans-button {
+  background-color: #fff;
+}
+
+.home-page-top-section-left-content-for-artists-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.home-page-top-section-right-content-img {
+  position: relative;
+}
+
+.home-page-top-section-right-content {
+  padding: 0 3rem !important;
+  position: relative;
+  text-align: center;
+}
+
+.home-top-section-img {
+  height: 550px;
+  width: 420px;
+  transform: rotate(10deg);
+  border: 2px solid #000;
+}
+
+.home-top-section-absolute-img {
+  position: absolute;
+  height: 150px;
+  left: 50px;
+  top: 40%;
+}
+
+.home-page-top-section-right-content p {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: rotate(90deg);
+  font-weight: bold;
+}
+
+/* Breakpoints for smaller devices */
+@media (max-width: 768px) {
+  .home-page-top-section-left-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-page-top-section-left-content,
+  .home-page-top-section-right-content {
+    padding: 1rem !important;
+  }
+
+  .home-page-top-section-left-content p {
+    text-align: justify;
+  }
+
+  .home-page-top-section-left-content-buttons button {
+    width: auto;
+  }
+
+  .home-page-top-section-right-content {
+    margin-top: 2rem !important;
+  }
+
+  .home-top-section-img {
+    height: 300px !important;
+    width: 250px !important;
+  }
+
+  .home-page-top-section-right-content {
+    text-align: center;
+  }
+
+  .home-top-section-absolute-img {
+    height: 80px !important;
+    left: 20px !important;
+  }
+
+  .home-page-top-section-right-content p {
+    right: -60px;
+    font-size: 14px;
+  }
+
+  .home-page-top-section-left-content-buttons {
+    flex-direction: column;
+  }
+
+  .home-page-top-section-left-content-buttons button {
+    width: 100% !important;
+  }
+}
+
+/* Breakpoints for very small screens (like mobile) */
+@media (max-width: 340px) {
+  .home-page-top-section-left-content-buttons {
+    flex-direction: column;
+  }
+
+  .home-page-top-section-left-content-buttons button {
+    width: 100% !important;
+  }
+
+  .home-top-section-img {
+    height: 250px !important;
+    width: 200px !important;
+  }
+
+  .home-top-section-absolute-img {
+    height: 70px !important;
+  }
+
+  .home-page-top-section-left-content p {
+    font-size: 18px;
+  }
+}
+
+/* Breakpoints for larger screens (like desktops and tablets) */
+@media (max-width: 992px) {
+  .home-page-top-section-content {
+    flex-direction: column;
+  }
+
+  .home-page-top-section-left-content,
+  .home-page-top-section-right-content {
+    padding: 1rem !important;
+    width: 100% !important;
+  }
+
+  .home-page-top-section-left-content h1 {
+    font-size: 4.5rem;
+  }
+
+  .home-page-top-section-left-content p {
+    font-size: 28px;
+  }
+
+  .home-top-section-img {
+    height: 550px;
+    width: 400px;
+    margin-top: 2rem;
+  }
+
+  .home-page-top-section-right-content p {
+    font-size: 16px;
+  }
+
+  .home-page-top-section-left-content-buttons button {
+    width: 100% !important;
+  }
+
+  .home-top-section-absolute-img {
+    height: 100px !important;
+    left: 25%;
+  }
+}
+
+/* Breakpoints for extra-large screens (wider desktops) */
+@media (min-width: 1200px) {
+  .home-page-top-section-left-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-page-top-section-left-content p {
+    font-size: 30px;
+  }
+
+  .home-top-section-img {
+    height: 650px;
+    width: 500px;
+  }
+
+  .home-page-top-section-left-content-buttons button {
+    width: 35%;
+  }
+}

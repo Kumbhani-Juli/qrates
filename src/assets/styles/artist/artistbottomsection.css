@@ -1,0 +1,73 @@
+.artist-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+}
+
+.artist-bottom-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.artist-bottom-content button {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+}
+
+.artist-bottom-img {
+  width: 700px;
+  height: 875px
+}
+
+.artist-bottom-img img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.artist-bottom-tab-button button {
+  border-radius: 50%;
+  margin-right: 1rem;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .artist-bottom-container {
+    flex-direction: column;
+    /* Stack items vertically */
+    padding: 2rem 1rem;
+    /* Further reduce padding */
+    align-items: flex-start;
+  }
+
+  .artist-bottom-content {
+    width: 100%;
+
+  }
+
+  .artist-bottom-content h3 {
+    margin: 1.5rem 0;
+
+  }
+
+  .artist-bottom-content button {
+    margin: 2rem 0;
+    /* Center button */
+  }
+
+  .artist-bottom-img {
+    width: 100%;
+    /* Image container takes full width */
+    height: auto;
+    /* Allow height to adjust proportionally */
+  }
+
+  .artist-bottom-tab-button button {
+    margin-right: 0.5rem;
+    /* Adjust spacing for smaller screens */
+  }
+}

@@ -1,0 +1,67 @@
+.home-fans-container {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  padding: 5rem 10rem;
+  position: relative;
+  color: white;
+}
+
+.home-fans-title {
+  border: 1px solid white;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.home-fans-title p {
+  margin: 0;
+}
+
+.fans-content h1 {
+  font-size: 3rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.fans-content h1:hover {
+  text-decoration: underline;
+}
+
+.fans-community {
+  position: absolute;
+  bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .home-fans-container {
+    padding: 3rem 2rem;
+
+    height: 50vh;
+    color: white;
+  }
+
+  .home-fans-title {
+    font-size: 1.5rem;
+
+    padding: 0.4rem 0.8rem;
+
+  }
+
+  .fans-content h1 {
+    font-size: 2rem;
+
+  }
+
+  .fans-community {
+    font-size: 1rem;
+    bottom: 20px;
+
+  }
+}

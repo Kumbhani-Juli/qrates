@@ -1,0 +1,116 @@
+.home-page-for-artists-section-container {
+    background-color: #fff804;
+    padding: 3rem;
+}
+
+.home-page-for-artists-section-left-content-img {
+    position: relative;
+    text-align: center;
+}
+
+.home-for-artists-section-img {
+    height: 550px;
+    width: 400px;
+    transform: rotate(-10deg);
+    border: 2px solid #000;
+}
+
+.home-for-artists-section-absolute-img {
+    position: absolute;
+    height: 100px;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-page-for-artists-section-left-content {
+    padding: 0 2rem;
+}
+
+.home-page-for-artists-section-right-content {
+    padding: 0 2rem;
+}
+
+.home-page-for-artists-section-content {
+    align-items: center;
+}
+
+.home-page-for-artists-section-right-content-title {
+    width: fit-content;
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.home-page-for-artists-section-right-content-title p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.home-page-for-artists-section-right-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.home-page-for-artists-section-right-body-content {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home-page-for-artists-section-right-content button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 25px;
+    margin: 1rem 0;
+}
+
+@media (max-width:768px) {
+    .home-page-for-artists-section-container {
+        padding: 1rem;
+    }
+
+    .home-for-artists-section-img {
+        height: 350px;
+        width: 250px;
+    }
+
+    .home-page-for-artists-section-content {
+        padding: 0;
+    }
+
+    .home-page-for-artists-section-left-content,
+    .home-page-for-artists-section-right-content {
+        padding: 0;
+    }
+
+    .home-page-for-artists-section-left-content {
+        margin: 2rem 0;
+    }
+
+    .home-for-artists-section-absolute-img {
+        height: 60px;
+        left: 0;
+    }
+
+    .home-page-for-artists-section-right-content h2 {
+        font-size: 30px;
+    }
+
+    .home-page-for-artists-section-right-body-content {
+        text-align: justify;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .home-page-for-artists-section-right-content button {
+        width: 100%;
+    }
+}

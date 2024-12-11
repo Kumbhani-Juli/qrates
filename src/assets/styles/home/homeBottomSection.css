@@ -1,0 +1,18 @@
+.home-page-bottom-section-container {
+  background-color: #000;
+}
+
+.home-page-bottom-section-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.home-page-bottom-section-content img {
+  border: 1px solid #000;
+}
+
+@media (max-width: 768px) {
+  .home-page-bottom-section-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

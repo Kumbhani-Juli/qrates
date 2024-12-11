@@ -1,0 +1,120 @@
+.for-artists-page-start-new-project-section-title {
+  background-color: black;
+  color: white;
+  padding: 4rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.for-artists-page-start-new-project-section-title button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.for-artists-page-start-new-project-section-left-content {
+  background-color: #81836c;
+  padding: 5rem 10rem;
+
+}
+
+.for-artists-page-start-new-project-section-left-content img,
+.for-artists-page-start-new-project-section-right-content img {
+  width: 650px;
+  height: 400px
+}
+
+.for-artists-page-start-new-project-section-left-content h1,
+.for-artists-page-start-new-project-section-right-content h1 {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.for-artists-page-start-new-project-section-left-content button,
+.for-artists-page-start-new-project-section-right-content button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.for-artists-page-start-new-project-section-left-inner-content,
+.for-artists-page-start-new-project-section-right-inner-content {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.for-artists-page-start-new-project-section-right-content {
+  background-color: #f8d8d8;
+  padding: 5rem 10rem;
+}
+
+.for-artists-page-start-new-project-section-left-content-title p,
+.for-artists-page-start-new-project-section-right-content-title p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 3rem 0;
+  text-transform: uppercase;
+  border: 1px solid black;
+  width: fit-content;
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width:768px) {
+  .for-artists-page-start-new-project-section-title {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .for-artists-page-start-new-project-section-title h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .for-artists-page-start-new-project-section-left-content img,
+  .for-artists-page-start-new-project-section-right-content img {
+    width: 100%;
+    height: 250px
+  }
+
+  .for-artists-page-start-new-project-section-title-icon {
+    transform: rotate(90deg);
+  }
+
+  .for-artists-page-start-new-project-section-left-content,
+  .for-artists-page-start-new-project-section-right-content {
+    padding: 2rem 1rem !important;
+  }
+
+  .for-artists-page-start-new-project-section-left-content h1,
+  .for-artists-page-start-new-project-section-right-content h1 {
+    font-size: 35px;
+  }
+
+  .for-artists-page-start-new-project-section-left-content button,
+  .for-artists-page-start-new-project-section-right-content button {
+    width: 100%;
+  }
+
+  .for-artists-page-start-new-project-section-left-inner-content,
+  .for-artists-page-start-new-project-section-right-inner-content {
+    line-height: normal;
+    text-align: justify;
+    margin: 0;
+  }
+}
