@@ -20,7 +20,7 @@
 
 .for-artists-page-start-new-project-section-left-content {
   background-color: #81836c;
-  padding: 5rem 10rem;
+  padding: 5rem 10rem !important;
 
 }
 
@@ -59,7 +59,7 @@
 
 .for-artists-page-start-new-project-section-right-content {
   background-color: #f8d8d8;
-  padding: 5rem 10rem;
+  padding: 5rem 10rem !important;
 }
 
 .for-artists-page-start-new-project-section-left-content-title p,

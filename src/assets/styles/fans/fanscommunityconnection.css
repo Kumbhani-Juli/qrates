@@ -1,0 +1,73 @@
+.for-fans-page-community-connection-section-title {
+  background-color: #fff804;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 3rem;
+  text-align: center;
+}
+
+.for-fans-page-community-connection-section-title h1 {
+  font-weight: bold;
+}
+
+.for-fans-page-community-connection-section-content {
+  padding: 4rem;
+}
+
+.for-fans-page-community-connection-section-left-content-title {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding: 5px 20px;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.for-fans-page-community-connection-section-left-content-title span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.for-fans-page-community-connection-section-left-content-body {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+.for-fans-page-community-connection-section-left-content-body h1 {
+  font-weight: bold;
+}
+
+.for-fans-page-community-connection-section-left-content-body p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.for-fans-page-community-connection-section-right-content img {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .for-fans-page-community-connection-section-title {
+    padding: 2rem 1rem;
+  }
+
+  .for-fans-page-community-connection-section-content {
+    padding: 2rem 0;
+    flex-direction: column-reverse !important;
+  }
+
+  .for-fans-page-community-connection-section-left-content-body p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .for-fans-page-community-connection-section-right-content img {
+    height: auto;
+  }
+
+}

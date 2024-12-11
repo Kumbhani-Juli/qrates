@@ -1,0 +1,174 @@
+.sign-up-page-section-container {
+  background-color: #e4e5de;
+  padding: 6rem 0;
+}
+
+.sign-up-page-section-content {
+  max-width: 682px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 2rem 3rem;
+}
+
+.sign-up-page-section-content-title-section h1 {
+  font-weight: bold;
+}
+
+.sign-up-page-section-content-title-section p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sign-up-page-section-content-title-section p a {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sign-up-page-section-content-social-media-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.sign-up-page-section-content-social-media-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up-page-section-content-social-media-content p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sign-up-page-section-content-social-media-icon {
+  height: 25px;
+}
+
+.sign-up-page-section-content-form-email,
+.sign-up-page-section-content-form-password,
+.sign-up-page-section-content-form-displayname {
+  position: relative;
+}
+
+.sign-up-page-section-content-form-email input,
+.sign-up-page-section-content-form-displayname input,
+.sign-up-page-section-content-form-password input {
+  width: 100%;
+  padding: 20px 8px 20px 150px;
+  border: 2px solid #000;
+}
+
+.sign-up-page-section-content-form-displayname input {
+  border-bottom: none;
+}
+
+.sign-up-page-section-content-form-password input {
+  border-top: none;
+}
+
+.sign-up-page-section-content-form-email p,
+.sign-up-page-section-content-form-password p,
+.sign-up-page-section-content-form-displayname p {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.sign-up-page-section-content-forgot-link {
+  margin: 2rem 0;
+}
+
+.sign-up-page-section-content-forgot-link p {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign-up-page-section-content-checkbox-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #EEEEEC;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sign-up-page-section-content-checkbox-content input {
+  cursor: pointer;
+}
+
+.sign-up-page-section-content-checkbox-content p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sign-up-page-section-content-button {
+  margin: 2rem 0;
+}
+
+.sign-up-page-section-content-button button {
+  width: 100%;
+  background-color: #000;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .sign-up-page-section-container {
+    padding: 2rem 1rem;
+  }
+  .sign-up-page-section-content-title-section p {
+    font-size: 18px;
+  }
+  .sign-up-page-section-content {
+    padding: 1rem 0.6rem;
+  }
+  .sign-up-page-section-content-title-section p a {
+    font-size: 16px;
+  }
+  .sign-up-page-section-content-social-media-section {
+    flex-wrap: wrap;
+  }
+  .sign-up-page-section-content-social-media-content {
+    margin-top: 10px;
+  }
+  .sign-up-page-section-content-form-email input,
+  .sign-up-page-section-content-form-password input,
+  .sign-up-page-section-content-form-displayname input {
+    padding: 20px 8px 20px 100px;
+  }
+  .sign-up-page-section-content-form-email p,
+  .sign-up-page-section-content-form-password p,
+  .sign-up-page-section-content-form-displayname p {
+    font-size: 14px;
+    width: 20%;
+    margin: 0;
+  }
+  .sign-up-page-section-content-button button {
+    padding: 10px;
+  }
+  .sign-up-page-section-content-forgot-link p {
+    font-size: 12px;
+  }
+  .sign-up-page-section-content-checkbox-content{
+    align-items: flex-start;
+  }
+  .sign-up-page-section-content-checkbox-content p{
+    margin: 0;
+    font-size: 12px;
+  }
+}
