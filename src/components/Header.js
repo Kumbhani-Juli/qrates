@@ -32,7 +32,7 @@ const Header = () => {
 		},
 		{
 			listTitle: "Cassettes",
-			slugs: "cassates",
+			slugs: "cassettes",
 		},
 		{
 			listTitle: "Stories",

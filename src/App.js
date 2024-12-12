@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import Record from "./components/Record";
+import Cassette from "./components/Cassettes";
+import Strories from "./components/Stories";
 function App() {
 	return (
 		<>
@@ -21,7 +23,9 @@ function App() {
 					<Route path="/for-fans" element={<Fans />} />{" "}
 					<Route path="/sign-in" element={<SignIn />} />{" "}
 					<Route path="/sign-up" element={<SignUp />} />
-					<Route path="/records" element={<Record />} />
+					<Route path="/records" element={<Record />} />{" "}
+					<Route path="/cassettes" element={<Cassette />} />
+					<Route path="/stories" element={<Strories />} />
 				</Routes>
 				<Footer />
 			</BrowserRouter>

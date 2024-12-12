@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding-bottom: 7rem;
   padding-top: 2rem;
+
   margin-bottom: 5rem;
 }
 
@@ -13,12 +14,31 @@
   font-weight: bold;
   padding: 0 3rem;
   color: transparent;
+  cursor: pointer;
   -webkit-text-stroke: 2px white;
 }
 
 .record-top-content h1 {
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.record-top-content-img {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 400px;
+}
+
+.record-top-content-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.record-top-content-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
 }
 
 .record-top-content-button button {
@@ -29,7 +49,6 @@
   font-weight: bold;
   font-size: 0.7rem;
   background-color: transparent;
-  margin-right: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -49,4 +68,19 @@
 
 .record-top-content {
   margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .record-top-title {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .record-top-title h1 {
+    font-size: 2rem !important;
+  }
+
+  .record-top-content-img {
+    height: 300px;
+  }
 }

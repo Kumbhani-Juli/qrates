@@ -1,0 +1,98 @@
+.stories-container {
+  background-color: #e4e5de;
+}
+
+.stories-title {
+  background-color: #000;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.stories-title p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.stories-title p:hover {
+  text-decoration: underline;
+}
+
+.stories-body {
+  padding: 1rem 10rem !important;
+  margin: 0 auto;
+  row-gap: 5rem;
+}
+
+.stories-body-content-box {
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stories-body-box-img {
+  width: 100%;
+  height: 400px;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+
+.stories-body-box-img button {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.8rem;
+  border: 2px solid white
+}
+
+.stories-body-box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.stories-inner-content {
+  padding: 1rem;
+}
+
+.stories-inner-content p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.stories-inner-content h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1em;
+  font-family: "FK Roman";
+}
+
+@media screen and (max-width: 768px) {
+  .stories-title {
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+
+  .stories-body {
+    padding: 0 !important;
+    row-gap: 3rem;
+  }
+
+  .stories-body-box-img {
+    height: 300px;
+  }
+}
