@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../assets/styles/record.css";
 import recordsPageProjectsData from "../Data/RecordsPageProjectsData";
+import { Link } from "react-router-dom";
 
 const Record = () => {
 	const [filter, setFilter] = useState("All Projects");
@@ -45,13 +46,15 @@ const Record = () => {
 				<div className="row mx-0 record-body-section">
 					{filteredData.map((record, index) => (
 						<div className="col-md-3 record-top-content" key={index}>
-							<div className="record-top-content-img">
-								<img
-									src={record?.sectionImg}
-									className="img-fluid"
-									alt="section-img"
-								/>
-							</div>
+							<Link to={`/records-project-details/${record?.slugs}`}>
+								<div className="record-top-content-img">
+									<img
+										src={record?.sectionImg}
+										className="img-fluid"
+										alt="section-img"
+									/>
+								</div>{" "}
+							</Link>
 							<h1>{truncateTitle(record?.projectTitle, 32)}</h1>
 							<h1>{record?.artistTitle}</h1>
 							<div className="record-top-content-button">
@@ -65,7 +68,7 @@ const Record = () => {
 									{record?.projectPrice}
 								</span>
 								<span>{record?.footerContent}</span>
-							</div>
+							</div>{" "}
 						</div>
 					))}
 				</div>

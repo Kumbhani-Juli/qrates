@@ -11,6 +11,9 @@ import SignUp from "./components/SignUp";
 import Record from "./components/Record";
 import Cassette from "./components/Cassettes";
 import Strories from "./components/Stories";
+import Qratescurates from "./components/Qratescurates";
+import Articlepage from "./components/Articlepage";
+import RecordDetailsPage from "./components/RecordDetailsPage";
 function App() {
 	return (
 		<>
@@ -25,7 +28,13 @@ function App() {
 					<Route path="/sign-up" element={<SignUp />} />
 					<Route path="/records" element={<Record />} />{" "}
 					<Route path="/cassettes" element={<Cassette />} />
-					<Route path="/stories" element={<Strories />} />
+					<Route path="/stories" element={<Strories />} />{" "}
+					<Route path="/qrates-curated" element={<Qratescurates />} />{" "}
+					<Route path="/articles" element={<Articlepage />} />{" "}
+					<Route
+						path="/records-project-details/:slugs"
+						element={<RecordDetailsPage />}
+					/>
 				</Routes>
 				<Footer />
 			</BrowserRouter>

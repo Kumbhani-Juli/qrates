@@ -1,0 +1,108 @@
+.qrates-curated-page-releas-of-the-week-section-container {
+  padding: 2rem;
+}
+
+.qrates-curated-page-releas-of-the-week-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.qrates-curated-page-releas-of-the-week-section-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.qrates-curated-page-releas-of-the-week-section-title button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qrates-curated-page-releas-of-the-week-section-content {
+  border: 2px solid #000;
+  margin: 2rem 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(202, 196, 193);
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content-title {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 5px 20px;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content {
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content-title span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content h5 {
+  font-size: 28px;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content small {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content p {
+  font-size: 20px;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.qrates-curated-page-releas-of-the-week-section-right-content a {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .qrates-curated-page-releas-of-the-week-section-container {
+    padding: 2rem 0.6rem;
+  }
+  .qrates-curated-page-releas-of-the-week-section-title {
+    flex-direction: column;
+  }
+  .qrates-curated-page-releas-of-the-week-section-title h2 {
+    font-size: 30px;
+  }
+  .qrates-curated-page-releas-of-the-week-section-right-content {
+    padding: 1rem 0.5rem;
+  }
+  .qrates-curated-page-releas-of-the-week-section-right-content h3 {
+    font-size: 28px;
+  }
+  .qrates-curated-page-releas-of-the-week-section-right-content h5 {
+    font-size: 22px;
+  }
+  .qrates-curated-page-releas-of-the-week-section-right-content p {
+    text-align: justify;
+    font-size: 16px;
+  }
+  .qrates-curated-page-releas-of-the-week-section-content {
+    margin: 2rem 0 !important;
+  }
+}

@@ -1,0 +1,32 @@
+.records-project-details-page-middle-section-left-content-profile-section-left-content{
+    text-align: center;
+}
+
+.records-project-details-page-middle-section-left-content-profile-section-left-content img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.records-project-details-page-middle-section-left-content-profile-section-right-content h1{
+    font-weight: bold;
+}
+
+.records-project-details-page-middle-section-left-content-profile-section-right-content a{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.records-project-details-page-middle-section-left-content-profile-section-right-content p{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+@media (max-width:768px) {
+    .records-project-details-page-middle-section-left-content-profile-section-right-content p{
+        line-height: normal;
+        text-align: justify;
+    }
+}
